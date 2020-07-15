@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Orar de Buzunar</string>
+    <string name="title_activity_clase1">Clase1Activity</string>
+    <string name="title_activity_prof1">Prof1Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_prof2">Prof2Activity</string>
+    <string name="title_activity_sali_lib">SaliLibActivity</string>
+</resources>

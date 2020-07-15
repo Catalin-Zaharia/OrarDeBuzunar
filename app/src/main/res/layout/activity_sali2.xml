@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true"
+    tools:context=".Sali2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonZiuaSali2"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/rounded_shape"
+            android:text="ph"
+            android:textAllCaps="false"
+            android:textColor="@color/colorTextBlack"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayoutSali2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonZiuaSali2">
+
+            <Button
+                android:id="@+id/button1Sali2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/rounded_shape"
+                android:text="1"
+                android:textAllCaps="false"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toTopOf="@+id/button2Sali2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.618"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/button2Sali2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/rounded_shape"
+                android:text="2"
+                android:textAllCaps="false"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toTopOf="@+id/button3Sali2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/button3Sali2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/rounded_shape"
+                android:text="3"
+                android:textAllCaps="false"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toTopOf="@+id/button4Sali2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.618"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/button4Sali2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/rounded_shape"
+                android:text="4"
+                android:textAllCaps="false"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="25sp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/button5Sali2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.618"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/button5Sali2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/rounded_shape"
+                android:text="5"
+                android:textAllCaps="false"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="25sp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/buttonLSali2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/buttonLSali2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/rounded_shape"
+                android:text="6"
+                android:textAllCaps="false"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="25sp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toTopOf="@+id/button7Sali2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/button7Sali2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/rounded_shape"
+                android:text="7"
+                android:textAllCaps="false"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="25sp"
+                app:layout_constraintBottom_toTopOf="@+id/button8Sali2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/button8Sali2"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/rounded_shape"
+                android:text="8"
+                android:textAllCaps="false"
+                android:textColor="@color/colorTextBlack"
+                android:textSize="25sp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>

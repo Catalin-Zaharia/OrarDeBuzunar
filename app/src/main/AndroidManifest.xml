@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="catalinzaharia.orardebuzunar">
+
+    <!-- Required to act as a custom watch face. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- Required for complications to receive complication data and open the provider chooser. -->
+    <uses-permission android:name="com.google.android.wearable.permission.RECEIVE_COMPLICATION_DATA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".OrarActivity" />
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Clase1Activity"
+            android:label="@string/title_activity_clase1"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Clase2Activity" />
+        <activity android:name=".ZileActivity" />
+        <activity
+            android:name=".Prof1Activity"
+            android:label="@string/title_activity_prof1"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity android:name=".Sali1Activity" />
+        <activity android:name=".Sali2Activity" />
+        <activity
+            android:name=".Prof2Activity"
+            android:label="@string/title_activity_prof2"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Clase3Activity" />
+        <activity android:name=".Sali3Activity" />
+        <activity android:name=".SaliL2Activity" />
+        <activity
+            android:name=".SaliLibActivity"
+            android:label="@string/title_activity_sali_lib"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

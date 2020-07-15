@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ButtonProf"
+    style="?android:attr/borderlessButtonStyle"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_shape_notouch"
+    android:fitsSystemWindows="true"
+    android:clickable="false"
+    android:focusable="false"
+    android:textAllCaps="false"
+    android:textAppearance="@style/TextAppearance.AppCompat"
+    android:textColor="@color/colorTextBlack"
+    android:textSize="25sp"
+    android:textStyle="normal" />
