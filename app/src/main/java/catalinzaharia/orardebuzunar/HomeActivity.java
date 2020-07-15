@@ -32,6 +32,7 @@ import catalinzaharia.orardebuzunar.utils.InternetConnection;
 public class HomeActivity extends AppCompatActivity {
     String ziuacurentain;
     Button buttonZiuaHome;
+    
     TextView textViewTitle;
     boolean net=true;
     int nrZiua;
